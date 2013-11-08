@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" name="Default" comment="" />
+    <ignored path="spring-social-box.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/pom.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383318582191" ignored="false" />
+    <file path="/Box.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383145297529" ignored="false" />
+    <file path="/BoxTemplate.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383679400557" ignored="false" />
+    <file path="/BoxServiceProvider.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382711775413" ignored="false" />
+    <file path="/BoxAdapter.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382650744389" ignored="false" />
+    <file path="/fragment.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584212607" ignored="false" />
+    <file path="/UserOperations.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382645550316" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-auth/pom.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383318518922" ignored="false" />
+    <file path="/Dummy.txt" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383585308613" ignored="false" />
+    <file path="/BoxProfile.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382712268462" ignored="false" />
+    <file path="/UserTemplate.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383082219721" ignored="false" />
+    <file path="/UserTemplateTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382648055264" ignored="false" />
+    <file path="$PROJECT_DIR$/../spring-social-smartcloud/src/main/java/org/springframework/social.smartcloud/api/PaginatedContactResult.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382648883151" ignored="false" />
+    <file path="$PROJECT_DIR$/../spring-social-smartcloud/src/main/java/org/springframework/social.smartcloud/api/SmartCloudProfile.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382649927901" ignored="false" />
+    <file path="/BoxConnectionFactory.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382712479434" ignored="false" />
+    <file path="$PROJECT_DIR$/../spring-social-smartcloud/src/main/java/org/springframework/social.smartcloud/api/impl/SmartCloudTemplate.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382651606256" ignored="false" />
+    <file path="/BoxRestTemplateErrorHandler.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382651798429" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-auth/src/main/java/com/silanis/esl/auth/oauth/OAuthController.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345018" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/spring-social-box/spring-social-box/1.0-SNAPSHOT/spring-social-box-1.0-SNAPSHOT-sources.jar!/org/springframework/social/box/api/impl/UserTemplate.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382712903368" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/spring-social-box/spring-social-box/1.0-SNAPSHOT/spring-social-box-1.0-SNAPSHOT-sources.jar!/org/springframework/social/box/connect/BoxConnectionFactory.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382712903368" ignored="false" />
+    <file path="/EslRequestSessionUtil.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383071204196" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-sessions/src/main/java/com/silanis/esl/rest/resource/util/EslRequestSessionUtil.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383071557918" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/request/InMemoryRequestContextAccessor.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714177737" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/reassignment/RoleReassignmentService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/auth/AccessServlet.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714137461" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/SessionResource.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714038343" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/provider/smartCloud/SmartCloudDocumentProvider.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714048921" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/auth/oauth/OAuthSmartCloudController.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383137167769" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/auth/PasswordServlet.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714131068" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/BaseResource.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714023778" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/access/SessionService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714124725" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/auth/AuthenticationFilter.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714159387" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/test/java/com/silanis/esl/rest/session/DBSessionStrategyTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714219839" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/auth/SignupServlet.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382733279403" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/SessionsResource.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714105667" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/auth/InProcessAuthStrategy.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714155415" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/auth/AuthenticationServlet.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714141848" ignored="false" />
+    <file path="/BaseResource.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714022537" ignored="false" />
+    <file path="/SessionResource.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714037144" ignored="false" />
+    <file path="/SessionsResource.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714104022" ignored="false" />
+    <file path="/SmartCloudDocumentProvider.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714048271" ignored="false" />
+    <file path="/SessionService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714123555" ignored="false" />
+    <file path="/PasswordServlet.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714130621" ignored="false" />
+    <file path="/AccessServlet.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714136972" ignored="false" />
+    <file path="/AuthenticationServlet.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714141423" ignored="false" />
+    <file path="/OAuthSmartCloudController.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383137123121" ignored="false" />
+    <file path="/SignupServlet.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382733258440" ignored="false" />
+    <file path="/InProcessAuthStrategy.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714155020" ignored="false" />
+    <file path="/AuthenticationFilter.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714158953" ignored="false" />
+    <file path="/InMemoryRequestContextAccessor.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714177737" ignored="false" />
+    <file path="/RoleReassignmentService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714183217" ignored="false" />
+    <file path="/DBSessionStrategyTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382714218813" ignored="false" />
+    <file path="/OAuthController.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383330983556" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-admin/src/main/java/com/silanis/esl/configuration/ExternalSystemService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="/ExternalSystemService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382724548181" ignored="false" />
+    <file path="$USER_HOME$/sdk-sample/pom.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382724120270" ignored="false" />
+    <file path="/TaggartSample.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382724161389" ignored="false" />
+    <file path="$USER_HOME$/sdk-sample/src/main/java/com/silanis/sdk/TaggartSample.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382724198541" ignored="false" />
+    <file path="/LicensePlanUtil.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382727178418" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/util/LicensePlanUtil.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382727203157" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/notification/NotificationService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="/NotificationService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1382733199268" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/pom.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383318582823" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-rest-webapp/src/main/webapp/WEB-INF/web.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383244444038" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/pom.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383241071635" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/FastTrackResource.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383059000637" ignored="false" />
+    <file path="/FastTrackResource.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383058987378" ignored="false" />
+    <file path="/web.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383316369085" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/exception/mappers/AbstractEslExceptionMapper.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383061384990" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/java/com/silanis/autoTest/tests/api/CallbackTests.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383068925913" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/java/com/silanis/autoTest/tests/api/APIEndToEndTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383068925913" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/java/com/silanis/autoTest/tests/BaseTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383068925913" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/java/com/silanis/autoTest/commons/db/DatabaseHelper.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383068925913" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/resources/config/win7_firefox.json" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383068925913" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/resources/config/api.json" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383068925913" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/resources/config/default.json" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383068925913" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/resources/config/win7_chrome.json" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383068925913" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/java/com/silanis/autoTest/tests/api/StatisticsTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383068925913" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/resources/config/esl.json" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383068925913" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/java/com/silanis/autoTest/tests/api/fasttrack/FastTrackTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383070755174" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/resources/config/win7_IE9.json" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383068925913" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/pom.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383068925913" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/java/com/silanis/autoTest/tests/api/attachments/AttachmentTests.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383069722522" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/java/com/silanis/autoTest/tests/api/SessionTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383068925913" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.qa.autotests/src/main/resources/config/local.json" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383069423649" ignored="false" />
+    <file path="/a.dummy" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383318442871" ignored="false" />
+    <file path="/AttachmentTests.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383069721154" ignored="false" />
+    <file path="/FastTrackTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383069883793" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/migration/dev/V9_3_11__Add_Dev_Accounts.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="/FolderOperations.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383147704073" ignored="false" />
+    <file path="/Folder.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383078100965" ignored="false" />
+    <file path="/ItemCollection.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383077945976" ignored="false" />
+    <file path="/Entry.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383147458240" ignored="false" />
+    <file path="/FolderTemplate.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383141042853" ignored="false" />
+    <file path="/AbstractTemplate.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383080386387" ignored="false" />
+    <file path="/FolderTemplateTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383147417513" ignored="false" />
+    <file path="/esl-provider-hibernate.cfg.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383085250464" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider-hibernate/src/main/resources/esl-provider-hibernate.cfg.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383085251609" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/resources/application-context.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383085389080" ignored="false" />
+    <file path="/application-context.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383085289221" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-auth/src/main/resources/auth-context.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383175952628" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/java/com/silanis/esl/ProvidedInformationUpdater.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383138253405" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/java/com/silanis/esl/contacts/EslContactsService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383136900594" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/smartCloud/SmartCloudService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383136900594" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/test/java/com/silanis/esl/configuration/contacts/EslContactsServiceTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383136902067" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/test/java/com/silanis/esl/configuration/contacts/EslContactMappingTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383136900594" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/test/java/com/silanis/esl/smartCloud/SmartCloudServiceTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383136900594" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/java/com/silanis/esl/contacts/EslContactMapping.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383136900594" ignored="false" />
+    <file path="/ProvidedInformationUpdater.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383138253704" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/java/com/silanis/esl/OAuthInformationProvider.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383138254614" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/java/com/silanis/esl/box/BoxInformationProvider.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383578642843" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/resources/provider-context.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383138553347" ignored="false" />
+    <file path="/provider-context.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383138381192" ignored="false" />
+    <file path="/BoxInformationProvider.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383331019515" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/pom.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383239390108" ignored="false" />
+    <file path="/File.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383144873740" ignored="false" />
+    <file path="/FileTemplate.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383677258169" ignored="false" />
+    <file path="/FileOperations.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383676733978" ignored="false" />
+    <file path="/FileTemplateTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383147792346" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/java/com/silanis/esl/box/BoxService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383677630118" ignored="false" />
+    <file path="/BoxService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383677625231" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/spring-social-box/spring-social-box/1.0-SNAPSHOT/spring-social-box-1.0-SNAPSHOT-sources.jar!/org/springframework/social/box/api/domain/Entry.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383147487249" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/spring-social-box/spring-social-box/1.0-SNAPSHOT/spring-social-box-1.0-SNAPSHOT-sources.jar!/org/springframework/social/box/api/FileOperations.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383147813390" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/spring-social-box/spring-social-box/1.0-SNAPSHOT/spring-social-box-1.0-SNAPSHOT-sources.jar!/org/springframework/social/box/api/impl/FileTemplate.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383147813390" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/java/com/silanis/esl/box/BoxMapper.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383164223654" ignored="false" />
+    <file path="/BoxMapper.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383164199997" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/java/com/silanis/esl/box/BoxApi.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383159654775" ignored="false" />
+    <file path="/BoxApi.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383159585738" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/test/java/com/silanis/esl/box/BoxServiceTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383337736635" ignored="false" />
+    <file path="/BoxServiceTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383337736635" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/java/com/silanis/esl/document/FileTypeUtil.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383337786539" ignored="false" />
+    <file path="/FileTypeUtil.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383337783776" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/test/java/com/silanis/esl/document/FileTypeUtilTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383169861744" ignored="false" />
+    <file path="/FileTypeUtilTest.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383169809545" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/java/com/silanis/esl/OAuthInformationProviderFactory.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383173014040" ignored="false" />
+    <file path="/OAuthInformationProviderFactory.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383176159388" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/exception/ExceptionMapperFactory.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383176065747" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/resources/esl-hibernate.cfg.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383174960358" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/java/com/silanis/esl/oauth/OAuthInformationProvider.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383175727307" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/java/com/silanis/esl/oauth/OAuthInformationProviderFactory.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383330663182" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/.idea/artifacts/esl_auth_webapp_war_exploded.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383318628639" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/.idea/artifacts/esl_cron_webapp_war_exploded.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383318585842" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-auth-webapp/src/main/webapp/WEB-INF/web.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383316369085" ignored="false" />
+    <file path="/jboss-web.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383328673493" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-auth-webapp/src/main/webapp/WEB-INF/jboss-web.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383328676096" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-auth-webapp/src/main/webapp/WEB-INF/jboss-classloading.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383328782733" ignored="false" />
+    <file path="/jboss-classloading.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383328780425" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-auth/src/main/java/com/silanis/esl/auth/oauth/config/OAuthConnectionFactoryService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383318378306" ignored="false" />
+    <file path="/OAuthConnectionFactoryService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383318372144" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-rest-webapp/src/main/webapp/WEB-INF/jboss-web.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383329391205" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-rest-webapp/src/main/webapp/WEB-INF/jboss-classloading.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383328437391" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-ear/src/main/application/META-INF/jboss-classloading.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383328287060" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/java/com/silanis/esl/box/BoxDocumentProvider.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383688094455" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-provider/src/main/java/com/silanis/esl/rest/provider/DocumentProvider.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="/BoxDocumentProvider.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383688065471" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/migration/shared/V10_2_1__Add_Oauth2_provider_key_config.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584216823" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/ProviderContactsResource.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345018" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/process/consent/DefaultConsentProcessActivationListener.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345018" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/packagemanagement/upload/ExternalDocumentService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345018" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/configuration/PreferencesService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345018" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-admin/src/main/java/com/silanis/esl/domain/EslUserRepository.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345018" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/RoleResource.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/PackageResource.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/ProviderDocumentResource.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/packagemanagement/fastTrack/FastTrackService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/packagemanagement/fastTrack/FastTrackValidation.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/PlanResource.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/packagemanagement/fastTrack/FastTrackMapper.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/document/DocumentEngineExtractionService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/packagemanagement/attachment/AttachmentRequirementService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/access/AccessService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/util/ProcessHelper.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/packagemanagement/CustomSignatureService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/packagemanagement/attachment/AttachmentContentService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/provider/ProviderService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-admin/src/main/java/com/silanis/esl/licensing/EslLicenseValidationImpl.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345023" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/provider/vfs/VfsDocumentProvider.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/provider/account/AccountDocumentsProvider.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/provider/account/AccountContactsProvider.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/provider/history/HistoryDocumentsProvider.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/util/RoleUtil.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/packagemanagement/copy/PackageCloneService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/packagemanagement/copy/DocumentCloneService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/packagemanagement/role/RoleUtilFacade.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/util/AuthenticationStrategyFactory.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-admin-hibernate/src/main/java/com/silanis/esl/domain/EslUserQuery.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/packagemanagement/expiry/ExpirePackageService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/api/document/DefaultDocumentApiService.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-commons-hibernate/src/main/java/com/silanis/awsng/spring/HibernateSessionManagementAspect.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/java/com/silanis/esl/rest/resource/AccountResource.java" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383584345024" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/main/resources/api-messages.properties" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383688094455" ignored="false" />
+    <file path="/api-messages.properties" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383687667848" ignored="false" />
+    <file path="$PROJECT_DIR$/../esl.backend/server/esl-core/src/test/resources/test-context.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383691234377" ignored="false" />
+    <file path="/test-context.xml" changelist="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" time="1383691232825" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="spring-social-box" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="BoxTemplate.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/impl/BoxTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="22" selection-start="2786" selection-end="2786" vertical-scroll-proportion="0.86206895">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractOAuth2ApiBinding.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/social/spring-social-core/1.0.3.RELEASE/spring-social-core-1.0.3.RELEASE-sources.jar!/org/springframework/social/oauth2/AbstractOAuth2ApiBinding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="161" column="65" selection-start="7532" selection-end="7542" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringHttpMessageConverter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.3.RELEASE/spring-web-3.2.3.RELEASE-sources.jar!/org/springframework/http/converter/StringHttpMessageConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="60" selection-start="2099" selection-end="2145" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractHttpMessageConverter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.3.RELEASE/spring-web-3.2.3.RELEASE-sources.jar!/org/springframework/http/converter/AbstractHttpMessageConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="22" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ByteArrayHttpMessageConverter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.3.RELEASE/spring-web-3.2.3.RELEASE-sources.jar!/org/springframework/http/converter/ByteArrayHttpMessageConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="42" selection-start="1360" selection-end="1389" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserTemplate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/impl/UserTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileTemplate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/impl/FileTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoxServiceProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/connect/BoxServiceProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="13" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoxAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/connect/BoxAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FolderTemplate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/impl/FolderTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="47" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/domain/ItemCollection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/impl/AbstractTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/impl/UserTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/domain/Folder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/domain/File.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/Box.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/domain/Entry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/FolderOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/impl/FolderTemplate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/springframework/social/box/api/impl/FolderTemplateTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/springframework/social/box/api/impl/FileTemplateTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/FileOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/impl/FileTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/social/box/connect/BoxAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/impl/BoxTemplate.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-social-box" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-social-box" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-social-box" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Profiles" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProfilesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1857" />
+    <option name="height" value="1205" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="errorhandling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.springframework.social.box.api.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.springframework.social.box.api.impl" />
+      <recent name="org.springframework.social.box.api.domain" />
+      <recent name="org.springframework.social.box.api" />
+      <recent name="org.springframework.social.box.rest.errorhandling" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FolderTemplateTest.testGetFolderItems">
+    <configuration default="false" name="UserTemplateTest.testGetUserProfile" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.springframework.social.box.api.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-social-box" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.springframework.social.box.api.impl" />
+      <option name="MAIN_CLASS_NAME" value="org.springframework.social.box.api.impl.UserTemplateTest" />
+      <option name="METHOD_NAME" value="testGetUserProfile" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FolderTemplateTest.testGetFolder" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.springframework.social.box.api.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-social-box" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.springframework.social.box.api.impl" />
+      <option name="MAIN_CLASS_NAME" value="org.springframework.social.box.api.impl.FolderTemplateTest" />
+      <option name="METHOD_NAME" value="testGetFolder" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FolderTemplateTest.testGetFolderItems" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.springframework.social.box.api.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-social-box" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.springframework.social.box.api.impl" />
+      <option name="MAIN_CLASS_NAME" value="org.springframework.social.box.api.impl.FolderTemplateTest" />
+      <option name="METHOD_NAME" value="testGetFolderItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FileTemplateTest.testGetFile" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.springframework.social.box.api.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-social-box" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.springframework.social.box.api.impl" />
+      <option name="MAIN_CLASS_NAME" value="org.springframework.social.box.api.impl.FileTemplateTest" />
+      <option name="METHOD_NAME" value="testGetFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FolderTemplateTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.springframework.social.box.api.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-social-box" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.springframework.social.box.api.impl" />
+      <option name="MAIN_CLASS_NAME" value="org.springframework.social.box.api.impl.FolderTemplateTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.UserTemplateTest.testGetUserProfile" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FolderTemplateTest.testGetFolder" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FolderTemplateTest.testGetFolderItems" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FileTemplateTest.testGetFile" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FolderTemplateTest" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FolderTemplateTest.testGetFolderItems" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FolderTemplateTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FileTemplateTest.testGetFile" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FolderTemplateTest.testGetFolder" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserTemplateTest.testGetUserProfile" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="098713e7-f2c6-42f9-b7c5-a8bea3449fc7" name="Default" comment="" />
+      <created>1382642037860</created>
+      <updated>1382642037860</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-4" width="1857" height="1205" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498618" sideWeight="0.6707663" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39924315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5002764" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21393035" sideWeight="0.26584673" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3106689" sideWeight="0.6112" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32614705" sideWeight="0.6112" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3888" sideWeight="0.4997236" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.4997236" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/UserOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/springframework/social/box/api/impl/FolderTemplateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="47" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/springframework/social/box/api/impl/FileTemplateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="53" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/connect/BoxConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="42" selection-start="3537" selection-end="3537" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/FileOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="22" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/connect/BoxServiceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/connect/BoxAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/impl/UserTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/impl/FileTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.3.RELEASE/spring-web-3.2.3.RELEASE-sources.jar!/org/springframework/http/converter/ByteArrayHttpMessageConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="42" selection-start="1360" selection-end="1389" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.3.RELEASE/spring-web-3.2.3.RELEASE-sources.jar!/org/springframework/http/converter/AbstractHttpMessageConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="22" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/social/spring-social-core/1.0.3.RELEASE/spring-social-core-1.0.3.RELEASE-sources.jar!/org/springframework/social/oauth2/AbstractOAuth2ApiBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="65" selection-start="7532" selection-end="7542" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.3.RELEASE/spring-web-3.2.3.RELEASE-sources.jar!/org/springframework/http/converter/StringHttpMessageConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="60" selection-start="2099" selection-end="2145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/impl/BoxTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="22" selection-start="2786" selection-end="2786" vertical-scroll-proportion="0.86206895">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/social/box/api/impl/FolderTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="47" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
