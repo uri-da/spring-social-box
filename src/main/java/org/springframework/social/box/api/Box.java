@@ -8,6 +8,7 @@ import org.springframework.social.ApiBinding;
  * Time: 3:50 PM
  */
 public interface Box extends ApiBinding {
+    public static final String BOX_PROVIDER_NAME = "box";
 
     UserOperations userOperations();
 

@@ -6,11 +6,11 @@
 
     <groupId>spring-social-box</groupId>
     <artifactId>spring-social-box</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1.0</version>
 
 
     <properties>
-        <spring-social.version>1.0.3.RELEASE</spring-social.version>
+        <spring-social.version>1.1.0.M4</spring-social.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -42,7 +42,7 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.1.2</version>
+            <version>4.2.5</version>
         </dependency>
         <dependency>
             <groupId>commons-io</groupId>
@@ -133,4 +133,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>eslbuild-releases</name>
+            <url>http://eslbuild.silanis.com:8080/artifactory/libs-release-local</url>
+        </repository>
+    </distributionManagement>
 </project>
