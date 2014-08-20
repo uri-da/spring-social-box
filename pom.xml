@@ -6,7 +6,7 @@
 
     <groupId>spring-social-box</groupId>
     <artifactId>spring-social-box</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1-SNAPSHOT</version>
 
 
     <properties>
