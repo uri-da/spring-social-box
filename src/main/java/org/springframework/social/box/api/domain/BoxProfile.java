@@ -1,5 +1,6 @@
 package org.springframework.social.box.api.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Date;
@@ -9,6 +10,7 @@ import java.util.Date;
  * Date: 24/10/13
  * Time: 4:33 PM
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class BoxProfile {
 
     private String id;

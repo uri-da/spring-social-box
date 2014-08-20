@@ -10,7 +10,7 @@
 
 
     <properties>
-        <spring-social.version>1.1.0.M4</spring-social.version>
+        <spring-social.version>1.1.0.RELEASE</spring-social.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
