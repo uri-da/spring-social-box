@@ -136,9 +136,13 @@
 
     <distributionManagement>
         <repository>
-            <id>central</id>
-            <name>eslbuild-releases</name>
+            <id>silanis-releases</id>
             <url>http://eslbuild.silanis.com:8080/artifactory/libs-release-local</url>
         </repository>
+        <snapshotRepository>
+            <id>silanis-snapshots</id>
+            <url>http://eslbuild.silanis.com:8080/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
+        <downloadUrl>http://eslbuild.silanis.com:8080/artifactory/libs-release</downloadUrl>
     </distributionManagement>
 </project>
