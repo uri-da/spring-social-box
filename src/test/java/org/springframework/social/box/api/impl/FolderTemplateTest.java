@@ -8,6 +8,7 @@ import org.springframework.http.MediaType;
 import org.springframework.social.box.api.domain.Entry;
 import org.springframework.social.box.api.domain.Folder;
 import org.springframework.social.box.api.domain.ItemCollection;
+import org.springframework.social.box.connect.url.CustomizedBoxUrlService;
 import org.springframework.social.test.client.MockRestServiceServer;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -31,7 +32,7 @@ public class FolderTemplateTest {
 
     @Before
     public void before(){
-        boxTemplate = new BoxTemplate("accessToken");
+        boxTemplate = new BoxTemplate("accessToken", CustomizedBoxUrlService.API_URL);
 
         mockServer = MockRestServiceServer.createServer(boxTemplate.getRestTemplate());
     }
@@ -42,7 +43,7 @@ public class FolderTemplateTest {
         HttpHeaders responseHeaders = new HttpHeaders();
         responseHeaders.setContentType(MediaType.APPLICATION_JSON);
 
-        mockServer.expect(requestTo("https://api.box.com/2.0/folders/" + FILE_ID))
+        mockServer.expect(requestTo(CustomizedBoxUrlService.API_URL + "/folders/" + FILE_ID))
                 .andExpect(method(HttpMethod.GET))
                 .andRespond(withResponse(getFolderTestJson(), responseHeaders));
 

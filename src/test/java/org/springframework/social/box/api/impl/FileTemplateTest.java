@@ -6,6 +6,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
 import org.springframework.social.box.api.domain.File;
+import org.springframework.social.box.connect.url.CustomizedBoxUrlService;
 import org.springframework.social.test.client.MockRestServiceServer;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -30,7 +31,7 @@ public class FileTemplateTest {
 
     @Before
     public void before(){
-        boxTemplate = new BoxTemplate("accessToken");
+        boxTemplate = new BoxTemplate("accessToken", CustomizedBoxUrlService.API_URL);
 
         mockServer = MockRestServiceServer.createServer(boxTemplate.getRestTemplate());
     }
@@ -40,7 +41,7 @@ public class FileTemplateTest {
         HttpHeaders responseHeaders = new HttpHeaders();
         responseHeaders.setContentType(MediaType.APPLICATION_JSON);
 
-        mockServer.expect(requestTo("https://api.box.com/2.0/files/" + FILE_ID))
+        mockServer.expect(requestTo(CustomizedBoxUrlService.API_URL + "/files/" + FILE_ID))
                 .andExpect(method(HttpMethod.GET))
                 .andRespond(withResponse(getFileTestJson(), responseHeaders));
 

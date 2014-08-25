@@ -17,7 +17,11 @@ public class BoxConnectionFactory extends OAuth2ConnectionFactory<Box> {
         this(new BoxServiceProvider(clientId, clientSecret));
     }
 
-    protected BoxConnectionFactory(BoxServiceProvider boxServiceProvider) {
+    public BoxConnectionFactory(String clientId, String clientSecret, String alternateApiBaseUrl, String alternateOAuthBaseUrl) {
+        this(new BoxServiceProvider(clientId, clientSecret, alternateApiBaseUrl, alternateOAuthBaseUrl));
+    }
+
+    private BoxConnectionFactory(BoxServiceProvider boxServiceProvider) {
         super(BOX_PROVIDER_NAME, boxServiceProvider, new BoxAdapter());
     }
 }

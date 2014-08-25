@@ -12,7 +12,6 @@ import org.springframework.social.box.api.Box;
 import org.springframework.social.box.api.FileOperations;
 import org.springframework.social.box.api.FolderOperations;
 import org.springframework.social.box.api.UserOperations;
-import org.springframework.social.box.connect.url.DefaultBoxUrlService;
 import org.springframework.social.box.rest.errorhandling.BoxRestTemplateErrorHandler;
 import org.springframework.social.oauth2.AbstractOAuth2ApiBinding;
 import org.springframework.web.client.RestTemplate;
@@ -27,10 +26,6 @@ public class BoxTemplate  extends AbstractOAuth2ApiBinding implements Box {
     private FileOperations fileOperations;
     private UserOperations userOperations;
     private FolderOperations folderOperations;
-
-    public BoxTemplate(String accessToken) {
-        this(accessToken, DefaultBoxUrlService.API_URL);
-    }
 
     public BoxTemplate(String accessToken, String baseUrl) {
         super(accessToken);

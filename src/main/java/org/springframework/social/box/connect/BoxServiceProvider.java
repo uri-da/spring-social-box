@@ -2,10 +2,8 @@ package org.springframework.social.box.connect;
 
 import org.springframework.social.box.api.Box;
 import org.springframework.social.box.api.impl.BoxTemplate;
-import org.springframework.social.box.connect.url.BoxBaseUrlService;
 import org.springframework.social.box.connect.url.BoxUrlService;
 import org.springframework.social.box.connect.url.CustomizedBoxUrlService;
-import org.springframework.social.box.connect.url.DefaultBoxUrlService;
 import org.springframework.social.oauth2.AbstractOAuth2ServiceProvider;
 import org.springframework.social.oauth2.OAuth2Template;
 
@@ -19,14 +17,14 @@ public class BoxServiceProvider extends AbstractOAuth2ServiceProvider<Box> {
     private final String apiUrl;
 
     public BoxServiceProvider(String clientId, String clientSecret) {
-        this(clientId, clientSecret, new DefaultBoxUrlService());
+        this(clientId, clientSecret, new CustomizedBoxUrlService());
     }
 
-    protected BoxServiceProvider(String clientId, String clientSecret, BoxBaseUrlService boxBaseUrlService) {
-        this(clientId, clientSecret, new CustomizedBoxUrlService(boxBaseUrlService));
+    public BoxServiceProvider(String clientId, String clientSecret, String alternateApiBaseUrl, String alternateOAuthBaseUrl) {
+        this(clientId, clientSecret, new CustomizedBoxUrlService(alternateApiBaseUrl, alternateOAuthBaseUrl));
     }
 
-    protected BoxServiceProvider(String clientId, String clientSecret, BoxUrlService boxUrlService) {
+    private BoxServiceProvider(String clientId, String clientSecret, BoxUrlService boxUrlService) {
         super(new OAuth2Template(clientId, clientSecret, boxUrlService.getOauth2AuthorizationUrl(), boxUrlService.getOauth2TokenUrl()));
         this.apiUrl = boxUrlService.getApiUrl();
         ((OAuth2Template)getOAuthOperations()).setUseParametersForClientAuthentication(true);
