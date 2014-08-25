@@ -24,7 +24,7 @@ public class CustomizedBoxUrlService implements BoxUrlService {
 
 
     public CustomizedBoxUrlService() {
-        this(OAUTH_BASE_URL, API_BASE_URL);
+        this(API_BASE_URL, OAUTH_BASE_URL);
     }
 
     public CustomizedBoxUrlService(String alternateApiBaseUrl, String alternateOAuthBaseUrl) {
