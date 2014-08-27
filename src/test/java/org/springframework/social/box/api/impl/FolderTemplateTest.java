@@ -32,7 +32,7 @@ public class FolderTemplateTest {
 
     @Before
     public void before(){
-        boxTemplate = new BoxTemplate("accessToken", CustomizedBoxUrlService.API_URL);
+        boxTemplate = new BoxTemplate("accessToken", CustomizedBoxUrlService.API_URL, CustomizedBoxUrlService.UPLOAD_URL);
 
         mockServer = MockRestServiceServer.createServer(boxTemplate.getRestTemplate());
     }
@@ -214,7 +214,7 @@ public class FolderTemplateTest {
                 "                \"sequence_id\": \"3\",\n" +
                 "                \"etag\": \"3\",\n" +
                 "                \"sha1\": \"134b65991ed521fcfe4724b7d814ab8ded5185dc\",\n" +
-                "                \"name\": \"tigers.jpeg\"\n" +
+                "                \"name\": \"exampleFile.jpeg\"\n" +
                 "            }\n" +
                 "        ],\n" +
                 "        \"offset\": 0,\n" +

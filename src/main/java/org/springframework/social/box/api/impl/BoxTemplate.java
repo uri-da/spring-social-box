@@ -27,11 +27,11 @@ public class BoxTemplate  extends AbstractOAuth2ApiBinding implements Box {
     private UserOperations userOperations;
     private FolderOperations folderOperations;
 
-    public BoxTemplate(String accessToken, String baseUrl) {
+    public BoxTemplate(String accessToken, String baseApiUrl, String baseUploadUrl) {
         super(accessToken);
-        this.userOperations = new UserTemplate(getRestTemplate(), isAuthorized(), baseUrl);
-        this.folderOperations = new FolderTemplate(getRestTemplate(), isAuthorized(), baseUrl);
-        this.fileOperations = new FileTemplate(getRestTemplate(), isAuthorized(), baseUrl);
+        this.userOperations = new UserTemplate(getRestTemplate(), isAuthorized(), baseApiUrl);
+        this.folderOperations = new FolderTemplate(getRestTemplate(), isAuthorized(), baseApiUrl);
+        this.fileOperations = new FileTemplate(getRestTemplate(), isAuthorized(), baseApiUrl, baseUploadUrl);
     }
 
     public UserOperations userOperations() {
@@ -54,6 +54,7 @@ public class BoxTemplate  extends AbstractOAuth2ApiBinding implements Box {
         messageConverters.add(new StringHttpMessageConverter());
         messageConverters.add(getFormMessageConverter());
         messageConverters.add(new MappingJackson2HttpMessageConverter());
+        messageConverters.add(getByteArrayMessageConverter());
 
         ByteArrayHttpMessageConverter byteArrayMessageConverter = getByteArrayMessageConverter();
         byteArrayMessageConverter.setSupportedMediaTypes(Collections.singletonList(MediaType.ALL));

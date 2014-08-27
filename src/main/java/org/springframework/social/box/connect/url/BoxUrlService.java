@@ -9,4 +9,5 @@ public interface BoxUrlService {
     String getApiUrl();
     String getOauth2AuthorizationUrl();
     String getOauth2TokenUrl();
+    String getUploadUrl();
 }

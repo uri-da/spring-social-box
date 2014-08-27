@@ -29,7 +29,7 @@ public class UserTemplateTest {
 
     @Before
     public void before(){
-        boxTemplate = new BoxTemplate("accessToken", CustomizedBoxUrlService.API_URL);
+        boxTemplate = new BoxTemplate("accessToken", CustomizedBoxUrlService.API_URL, CustomizedBoxUrlService.UPLOAD_URL);
 
         mockServer = MockRestServiceServer.createServer(boxTemplate.getRestTemplate());
     }

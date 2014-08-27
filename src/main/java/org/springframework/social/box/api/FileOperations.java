@@ -1,6 +1,7 @@
 package org.springframework.social.box.api;
 
 import org.springframework.social.box.api.domain.File;
+import org.springframework.social.box.api.domain.ItemCollection;
 
 /**
  * User: greg
@@ -12,4 +13,6 @@ public interface FileOperations {
     File getFile(String fileId);
 
     byte[] getFileData(String fileId);
+
+    ItemCollection sendFile(String parentFolderId, String fileName, byte[] fileContent);
 }
