@@ -6,7 +6,7 @@
 
     <groupId>spring-social-box</groupId>
     <artifactId>spring-social-box</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2-SNAPSHOT</version>
     <description>A library to connect and interact with box.com</description>
 
     <properties>
