@@ -144,4 +144,8 @@
         </snapshotRepository>
         <downloadUrl>http://eslbuild.silanis.com:8080/artifactory/libs-release</downloadUrl>
     </distributionManagement>
+    <scm>
+        <developerConnection>scm:git:git@github.com:silanis/spring-social-box.git</developerConnection>
+        <tag>head</tag>
+    </scm>
 </project>
