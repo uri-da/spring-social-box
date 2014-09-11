@@ -2,6 +2,7 @@ package org.springframework.social.box.api.domain;
 
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.HashMap;
@@ -12,8 +13,8 @@ import java.util.Map;
  * Date: 30/10/13
  * Time: 10:47 AM
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class File {
-
     @JsonProperty("type")
     private String type;
     @JsonProperty("id")
@@ -48,6 +49,8 @@ public class File {
     private BoxProfile modifiedBy;
     @JsonProperty("owned_by")
     private BoxProfile ownedBy;
+    @JsonProperty("parent")
+    private MiniFolder parent;
     @JsonProperty("item_status")
     private String itemStatus;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
@@ -187,6 +190,10 @@ public class File {
     public void setOwnedBy(BoxProfile ownedBy) {
         this.ownedBy = ownedBy;
     }
+
+    public MiniFolder getParent() { return parent; }
+
+    public void setParent(MiniFolder parent) { this.parent = parent; }
 
     public String getItemStatus() {
         return itemStatus;

@@ -6,6 +6,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
 import org.springframework.social.box.api.domain.BoxProfile;
+import org.springframework.social.box.connect.url.CustomizedBoxUrlService;
 import org.springframework.social.test.client.MockRestServiceServer;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -28,7 +29,7 @@ public class UserTemplateTest {
 
     @Before
     public void before(){
-        boxTemplate = new BoxTemplate("accessToken");
+        boxTemplate = new BoxTemplate("accessToken", CustomizedBoxUrlService.API_URL, CustomizedBoxUrlService.UPLOAD_URL);
 
         mockServer = MockRestServiceServer.createServer(boxTemplate.getRestTemplate());
     }
@@ -38,7 +39,7 @@ public class UserTemplateTest {
         HttpHeaders responseHeaders = new HttpHeaders();
         responseHeaders.setContentType(MediaType.APPLICATION_JSON);
 
-        mockServer.expect(requestTo("https://api.box.com/2.0/users/me"))
+        mockServer.expect(requestTo(CustomizedBoxUrlService.API_URL + "/users/me"))
                 .andExpect(method(HttpMethod.GET))
                 .andRespond(withResponse(getUserJson(), responseHeaders));
 

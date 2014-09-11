@@ -8,33 +8,18 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * User: greg
- * Date: 29/10/13
- * Time: 4:19 PM
+ * User: whou
+ * Date: 25/08/14
+ * Time: 5:45 PM
  */
-public class Entry {
+public class MiniFolder {
 
-    public enum Type {
-        FILE, FOLDER;
-
-        @Override
-        public String toString(){
-            return super.toString().toLowerCase();
-        }
-
-    }
-    @JsonProperty("type")
     private String type;
-    @JsonProperty("id")
     private String id;
     @JsonProperty("sequence_id")
-    private Object sequenceId;
-    @JsonProperty("etag")
-    private Object etag;
+    private String sequenceId;
     @JsonProperty("name")
     private String name;
-    @JsonProperty("parent")
-    private Entry parent;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
     public String getType() {
@@ -53,20 +38,12 @@ public class Entry {
         this.id = id;
     }
 
-    public Object getSequenceId() {
+    public String getSequenceId() {
         return sequenceId;
     }
 
-    public void setSequenceId(Object sequenceId) {
+    public void setSequenceId(String sequenceId) {
         this.sequenceId = sequenceId;
-    }
-
-    public Object getEtag() {
-        return etag;
-    }
-
-    public void setEtag(Object etag) {
-        this.etag = etag;
     }
 
     public String getName() {
@@ -75,14 +52,6 @@ public class Entry {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public Entry getParent() {
-        return parent;
-    }
-
-    public void setParent(Entry parent) {
-        this.parent = parent;
     }
 
     @JsonAnyGetter

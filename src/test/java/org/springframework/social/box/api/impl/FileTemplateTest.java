@@ -1,12 +1,17 @@
 package org.springframework.social.box.api.impl;
 
+import org.apache.commons.io.IOUtils;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
 import org.springframework.social.box.api.domain.File;
+import org.springframework.social.box.api.domain.ItemCollection;
+import org.springframework.social.box.connect.url.CustomizedBoxUrlService;
 import org.springframework.social.test.client.MockRestServiceServer;
+
+import java.io.InputStream;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
@@ -30,7 +35,7 @@ public class FileTemplateTest {
 
     @Before
     public void before(){
-        boxTemplate = new BoxTemplate("accessToken");
+        boxTemplate = new BoxTemplate("accessToken", CustomizedBoxUrlService.API_URL, CustomizedBoxUrlService.UPLOAD_URL);
 
         mockServer = MockRestServiceServer.createServer(boxTemplate.getRestTemplate());
     }
@@ -40,7 +45,7 @@ public class FileTemplateTest {
         HttpHeaders responseHeaders = new HttpHeaders();
         responseHeaders.setContentType(MediaType.APPLICATION_JSON);
 
-        mockServer.expect(requestTo("https://api.box.com/2.0/files/" + FILE_ID))
+        mockServer.expect(requestTo(CustomizedBoxUrlService.API_URL + "/files/" + FILE_ID))
                 .andExpect(method(HttpMethod.GET))
                 .andRespond(withResponse(getFileTestJson(), responseHeaders));
 
@@ -48,7 +53,110 @@ public class FileTemplateTest {
 
         assertThat(file, is(notNullValue()));
         assertThat(file.getId(), is(equalTo("5000948880")));
-        assertThat(file.getName(), is(equalTo("tigers.jpeg")));
+        assertThat(file.getName(), is(equalTo("exampleFile.jpeg")));
+    }
+
+    @Test
+    public void testSendFile() throws Exception {
+        HttpHeaders responseHeaders = new HttpHeaders();
+        responseHeaders.setContentType(MediaType.APPLICATION_JSON);
+
+        mockServer.expect(requestTo("https://upload.box.com/api/2.0/files/content"))
+                .andExpect(method(HttpMethod.POST))
+                .andRespond(withResponse(sendFileTestJson(), responseHeaders));
+
+        final String filename = "exampleFile.jpeg";
+        final InputStream fileToSendInputStream = FileTemplateTest.class.getResourceAsStream(filename);
+        byte[] fileContent = IOUtils.toByteArray(fileToSendInputStream);
+
+        ItemCollection fileList = boxTemplate.fileOperations().sendFile("0", filename, fileContent);
+
+        assertThat(fileList.getEntries().get(0), is(notNullValue()));
+//        assertThat(fileList.getEntries().get(0).getParent().getId(), is(equalTo("11446498")));
+        assertThat(fileList.getEntries().get(0).getName(), is(equalTo(filename)));
+    }
+
+    private String sendFileTestJson() {
+        return "{\n" +
+                "    \"total_count\": 1,\n" +
+                "    \"entries\": [\n" +
+                "{\n" +
+                "    \"type\": \"file\",\n" +
+                "    \"id\": \"5000948880\",\n" +
+                "    \"sequence_id\": \"3\",\n" +
+                "    \"etag\": \"3\",\n" +
+                "    \"sha1\": \"134b65991ed521fcfe4724b7d814ab8ded5185dc\",\n" +
+                "    \"name\": \"exampleFile.jpeg\",\n" +
+                "    \"description\": \"a picture of tigers\",\n" +
+                "    \"size\": 629644,\n" +
+                "    \"path_collection\": {\n" +
+                "        \"total_count\": 2,\n" +
+                "        \"entries\": [\n" +
+                "            {\n" +
+                "                \"type\": \"folder\",\n" +
+                "                \"id\": \"0\",\n" +
+                "                \"sequence_id\": null,\n" +
+                "                \"etag\": null,\n" +
+                "                \"name\": \"All Files\"\n" +
+                "            },\n" +
+                "            {\n" +
+                "                \"type\": \"folder\",\n" +
+                "                \"id\": \"11446498\",\n" +
+                "                \"sequence_id\": \"1\",\n" +
+                "                \"etag\": \"1\",\n" +
+                "                \"name\": \"Pictures\"\n" +
+                "            }\n" +
+                "        ]\n" +
+                "    },\n" +
+                "    \"created_at\": \"2012-12-12T10:55:30-08:00\",\n" +
+                "    \"modified_at\": \"2012-12-12T11:04:26-08:00\",\n" +
+                "    \"trashed_at\": null,\n" +
+                "    \"purged_at\": null,\n" +
+                "    \"content_created_at\": \"2013-02-04T16:57:52-08:00\",\n" +
+                "    \"content_modified_at\": \"2013-02-04T16:57:52-08:00\",\n" +
+                "    \"created_by\": {\n" +
+                "        \"type\": \"user\",\n" +
+                "        \"id\": \"17738362\",\n" +
+                "        \"name\": \"sean rose\",\n" +
+                "        \"login\": \"sean@box.com\"\n" +
+                "    },\n" +
+                "    \"modified_by\": {\n" +
+                "        \"type\": \"user\",\n" +
+                "        \"id\": \"17738362\",\n" +
+                "        \"name\": \"sean rose\",\n" +
+                "        \"login\": \"sean@box.com\"\n" +
+                "    },\n" +
+                "    \"owned_by\": {\n" +
+                "        \"type\": \"user\",\n" +
+                "        \"id\": \"17738362\",\n" +
+                "        \"name\": \"sean rose\",\n" +
+                "        \"login\": \"sean@box.com\"\n" +
+                "    },\n" +
+                "    \"shared_link\": {\n" +
+                "        \"url\": \"https://www.box.com/s/rh935iit6ewrmw0unyul\",\n" +
+                "        \"download_url\": \"https://www.box.com/shared/static/rh935iit6ewrmw0unyul.jpeg\",\n" +
+                "        \"vanity_url\": null,\n" +
+                "        \"is_password_enabled\": false,\n" +
+                "        \"unshared_at\": null,\n" +
+                "        \"download_count\": 0,\n" +
+                "        \"preview_count\": 0,\n" +
+                "        \"access\": \"open\",\n" +
+                "        \"permissions\": {\n" +
+                "            \"can_download\": true,\n" +
+                "            \"can_preview\": true\n" +
+                "        }\n" +
+                "    },\n" +
+                "    \"parent\": {\n" +
+                "        \"type\": \"folder\",\n" +
+                "        \"id\": \"11446498\",\n" +
+                "        \"sequence_id\": \"1\",\n" +
+                "        \"etag\": \"1\",\n" +
+                "        \"name\": \"Pictures\"\n" +
+                "    },\n" +
+                "    \"item_status\": \"active\"\n" +
+                "}\n" +
+                "    ]\n" +
+                "}";
     }
 
     private String getFileTestJson() {
@@ -58,7 +166,7 @@ public class FileTemplateTest {
                 "    \"sequence_id\": \"3\",\n" +
                 "    \"etag\": \"3\",\n" +
                 "    \"sha1\": \"134b65991ed521fcfe4724b7d814ab8ded5185dc\",\n" +
-                "    \"name\": \"tigers.jpeg\",\n" +
+                "    \"name\": \"exampleFile.jpeg\",\n" +
                 "    \"description\": \"a picture of tigers\",\n" +
                 "    \"size\": 629644,\n" +
                 "    \"path_collection\": {\n" +

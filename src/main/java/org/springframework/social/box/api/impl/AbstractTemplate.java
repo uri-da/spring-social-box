@@ -1,7 +1,6 @@
 package org.springframework.social.box.api.impl;
 
 import org.springframework.social.MissingAuthorizationException;
-import org.springframework.social.box.api.Box;
 
 /**
  * User: greg
@@ -12,7 +11,7 @@ public abstract class AbstractTemplate {
 
     public void checkAuthorization(boolean isAuthorized){
         if (!isAuthorized) {
-            throw new MissingAuthorizationException(Box.BOX_PROVIDER_NAME);
+            throw new MissingAuthorizationException();
         }
     }
 }
