@@ -18,8 +18,6 @@ public class CustomizedBoxUrlService implements BoxUrlService {
 
     public static final String API_URL = API_BASE_URL + API_PATH;
     public static final String UPLOAD_URL = UPLOAD_BASE_URL + UPLOAD_PATH;
-    private static final String OAUTH2_AUTHORIZATION_URL = OAUTH_BASE_URL + OAUTH2_AUTHORIZATION_PATH;
-    private static final String OAUTH2_TOKEN_URL = OAUTH_BASE_URL + OAUTH2_TOKEN_PATH;
 
     private final String apiUrl;
     private final String oAuth2AuthorizationUrl;

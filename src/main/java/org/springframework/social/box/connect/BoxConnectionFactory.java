@@ -10,9 +10,6 @@ import org.springframework.social.connect.support.OAuth2ConnectionFactory;
  */
 public class BoxConnectionFactory extends OAuth2ConnectionFactory<Box> {
 
-    // TODO: We may remove it. It is defined in Box interface.
-    public static final String BOX_PROVIDER_NAME = "box";
-
     public BoxConnectionFactory(String clientId, String clientSecret) {
         this(new BoxServiceProvider(clientId, clientSecret));
     }
@@ -22,6 +19,6 @@ public class BoxConnectionFactory extends OAuth2ConnectionFactory<Box> {
     }
 
     private BoxConnectionFactory(BoxServiceProvider boxServiceProvider) {
-        super(BOX_PROVIDER_NAME, boxServiceProvider, new BoxAdapter());
+        super(Box.BOX_PROVIDER_NAME, boxServiceProvider, new BoxAdapter());
     }
 }

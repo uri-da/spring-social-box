@@ -1,9 +1,11 @@
 package org.springframework.social.box.api.impl;
 
+import java.util.List;
 import org.apache.commons.io.IOUtils;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.springframework.social.box.api.domain.Entry;
 import org.springframework.social.box.api.domain.ItemCollection;
 import org.springframework.social.box.connect.url.CustomizedBoxUrlService;
 
@@ -17,7 +19,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
  */
 public class SendFileIntegrationTest {
 
-    public static final String BOX_API_KEY = "wdo3KYALfmBDVejUjsNdA4xzSbZdE3Lb";    //PUT YOUR BOX API KEY HERE
+    public static final String BOX_API_KEY = "TYPE YOUR KEY HERE";    //PUT YOUR BOX API KEY HERE
     public static final String BOX_ROOT_FOLDER_ID = "0";
     private BoxTemplate boxTemplate;
 
@@ -35,8 +37,13 @@ public class SendFileIntegrationTest {
 
         ItemCollection fileList = boxTemplate.fileOperations().sendFile(BOX_ROOT_FOLDER_ID, filename, fileContent);
 
-        assertThat(fileList.getEntries().get(0), is(notNullValue()));
-//        assertThat(fileList.getEntries().get(0).getParent().getId(), is(equalTo(BOX_ROOT_FOLDER_ID)));
-        assertThat(fileList.getEntries().get(0).getName(), is(equalTo(filename)));
+        final List<Entry> resultEntries = fileList.getEntries();
+        for (Entry resultEntry : resultEntries) {
+            if(resultEntry.getName().equals(filename)){
+                assertThat(resultEntry, is(notNullValue()));
+                assertThat(resultEntry.getParent().getId(), is(equalTo(BOX_ROOT_FOLDER_ID)));
+                assertThat(resultEntry.getName(), is(equalTo(filename)));
+            }
+        }
     }
 }

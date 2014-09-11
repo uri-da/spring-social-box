@@ -21,9 +21,8 @@ public class Entry {
         public String toString(){
             return super.toString().toLowerCase();
         }
+
     }
-
-
     @JsonProperty("type")
     private String type;
     @JsonProperty("id")
@@ -34,7 +33,8 @@ public class Entry {
     private Object etag;
     @JsonProperty("name")
     private String name;
-
+    @JsonProperty("parent")
+    private Entry parent;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
     public String getType() {
@@ -75,6 +75,14 @@ public class Entry {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Entry getParent() {
+        return parent;
+    }
+
+    public void setParent(Entry parent) {
+        this.parent = parent;
     }
 
     @JsonAnyGetter

@@ -31,8 +31,6 @@ public class File {
     private String description;
     @JsonProperty("size")
     private Long size;
-    @JsonProperty("path_collection")
-    private PathCollection pathCollection;
     @JsonProperty("created_at")
     private String createdAt;
     @JsonProperty("modified_at")
