@@ -50,7 +50,7 @@ public class FolderTemplateTest {
         Folder folder = boxTemplate.folderOperations().getFolder(FILE_ID);
 
         assertThat(folder.getId(), is("11446498"));
-        assertThat(folder.getItemCollection().getEntries().size(), is(1));
+        assertThat(folder.getItemCollection().getItems().size(), is(1));
 
     }
 
@@ -66,7 +66,7 @@ public class FolderTemplateTest {
         Folder folder = boxTemplate.folderOperations().getRootFolder();
 
         assertThat(folder.getId(), is(equalTo("11446498")));
-        assertThat(folder.getItemCollection().getEntries().size(), is(1));
+        assertThat(folder.getItemCollection().getItems().size(), is(1));
 
     }
 
@@ -79,12 +79,12 @@ public class FolderTemplateTest {
                 .andExpect(method(HttpMethod.GET))
                 .andRespond(withResponse(getTestFolderItemJson(), responseHeaders));
 
-        ItemCollection folderItems = boxTemplate.folderOperations().getFolderItems(FILE_ID);
+        ItemCollection<Entry> folderItems = boxTemplate.folderOperations().getFolderItems(FILE_ID);
 
         assertThat(folderItems, notNullValue());
-        assertThat(folderItems.getEntries().size(), is(2));
-        assertThat(folderItems.getEntries().get(0).getType(), is(equalTo(Entry.Type.FOLDER.toString()))) ;
-        assertThat(folderItems.getEntries().get(1).getType(), is(equalTo(Entry.Type.FILE.toString()))) ;
+        assertThat(folderItems.getItems().size(), is(2));
+        assertThat(folderItems.getItems().get(0).getType(), is(equalTo(Entry.Type.FOLDER.toString()))) ;
+        assertThat(folderItems.getItems().get(1).getType(), is(equalTo(Entry.Type.FILE.toString()))) ;
 
     }
 
@@ -97,10 +97,10 @@ public class FolderTemplateTest {
                 .andExpect(method(HttpMethod.GET))
                 .andRespond(withResponse(getTestFolderItemJson(), responseHeaders));
 
-        ItemCollection folderItems = boxTemplate.folderOperations().getRootFolderItems();
+        ItemCollection<Entry> folderItems = boxTemplate.folderOperations().getRootFolderItems();
 
         assertThat(folderItems, notNullValue());
-        assertThat(folderItems.getEntries().size(), is(2));
+        assertThat(folderItems.getItems().size(), is(2));
     }
 
 

@@ -1,8 +1,10 @@
 package org.springframework.social.box.api.impl;
 
+import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.http.*;
 import org.springframework.social.box.api.FileOperations;
+import org.springframework.social.box.api.domain.Entry;
 import org.springframework.social.box.api.domain.File;
 import org.springframework.social.box.api.domain.ItemCollection;
 import org.springframework.util.LinkedMultiValueMap;
@@ -53,12 +55,13 @@ public class FileTemplate extends AbstractTemplate implements FileOperations {
     }
 
     @Override
-    public ItemCollection sendFile(String parentFolderId, String fileName, byte[] fileContent) {
+    public ItemCollection<Entry> sendFile(String parentFolderId, String fileName, byte[] fileContent) {
 
         checkAuthorization(isAuthorized);
 
         HttpEntity request = configureRequest(parentFolderId, fileName, fileContent);
-        return restTemplate.postForObject(URI.create(uploadUrl + "/content"), request, ItemCollection.class);
+        return restTemplate.exchange(URI.create(uploadUrl + "/content"), HttpMethod.POST, request,
+                new ParameterizedTypeReference<ItemCollection<Entry>>() {}).getBody();
     }
 
     private HttpEntity configureRequest(String parentFolderId, final String filename, final byte[] fileContent) {

@@ -8,10 +8,12 @@ import org.springframework.http.converter.ByteArrayHttpMessageConverter;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.StringHttpMessageConverter;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
+import org.springframework.social.box.api.EnterpriseUsersOperations;
 import org.springframework.social.box.api.Box;
 import org.springframework.social.box.api.FileOperations;
 import org.springframework.social.box.api.FolderOperations;
 import org.springframework.social.box.api.UserOperations;
+import org.springframework.social.box.rest.RestService;
 import org.springframework.social.box.rest.errorhandling.BoxRestTemplateErrorHandler;
 import org.springframework.social.oauth2.AbstractOAuth2ApiBinding;
 import org.springframework.web.client.RestTemplate;
@@ -26,12 +28,17 @@ public class BoxTemplate  extends AbstractOAuth2ApiBinding implements Box {
     private FileOperations fileOperations;
     private UserOperations userOperations;
     private FolderOperations folderOperations;
+    private EnterpriseUsersOperations enterpriseUsersOperations;
 
     public BoxTemplate(String accessToken, String baseApiUrl, String baseUploadUrl) {
         super(accessToken);
+
+        RestService restService = new RestService(getRestTemplate());
+
         this.userOperations = new UserTemplate(getRestTemplate(), isAuthorized(), baseApiUrl);
         this.folderOperations = new FolderTemplate(getRestTemplate(), isAuthorized(), baseApiUrl);
         this.fileOperations = new FileTemplate(getRestTemplate(), isAuthorized(), baseApiUrl, baseUploadUrl);
+        this.enterpriseUsersOperations = new EnterpriseUsersTemplate(restService, isAuthorized(), baseApiUrl);
     }
 
     public UserOperations userOperations() {
@@ -46,6 +53,11 @@ public class BoxTemplate  extends AbstractOAuth2ApiBinding implements Box {
     @Override
     public FileOperations fileOperations() {
         return fileOperations;
+    }
+
+    @Override
+    public EnterpriseUsersOperations enterpriseUsersOperations() {
+        return enterpriseUsersOperations;
     }
 
     @Override

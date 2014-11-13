@@ -1,5 +1,6 @@
 package org.springframework.social.box.api;
 
+import org.springframework.social.box.api.domain.Entry;
 import org.springframework.social.box.api.domain.Folder;
 import org.springframework.social.box.api.domain.ItemCollection;
 
@@ -14,7 +15,7 @@ public interface FolderOperations {
 
     Folder getRootFolder();
 
-    ItemCollection getFolderItems(String folderId);
+    ItemCollection<Entry> getFolderItems(String folderId);
 
-    ItemCollection getRootFolderItems();
+    ItemCollection<Entry> getRootFolderItems();
 }

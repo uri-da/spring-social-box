@@ -35,9 +35,9 @@ public class SendFileIntegrationTest {
         final InputStream fileToSendInputStream = FileTemplateTest.class.getResourceAsStream(filename);
         byte[] fileContent = IOUtils.toByteArray(fileToSendInputStream);
 
-        ItemCollection fileList = boxTemplate.fileOperations().sendFile(BOX_ROOT_FOLDER_ID, filename, fileContent);
+        ItemCollection<Entry> fileList = boxTemplate.fileOperations().sendFile(BOX_ROOT_FOLDER_ID, filename, fileContent);
 
-        final List<Entry> resultEntries = fileList.getEntries();
+        final List<Entry> resultEntries = fileList.getItems();
         for (Entry resultEntry : resultEntries) {
             if(resultEntry.getName().equals(filename)){
                 assertThat(resultEntry, is(notNullValue()));

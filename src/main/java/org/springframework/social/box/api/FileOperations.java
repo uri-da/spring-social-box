@@ -1,5 +1,6 @@
 package org.springframework.social.box.api;
 
+import org.springframework.social.box.api.domain.Entry;
 import org.springframework.social.box.api.domain.File;
 import org.springframework.social.box.api.domain.ItemCollection;
 
@@ -14,5 +15,5 @@ public interface FileOperations {
 
     byte[] getFileData(String fileId);
 
-    ItemCollection sendFile(String parentFolderId, String fileName, byte[] fileContent);
+    ItemCollection<Entry> sendFile(String parentFolderId, String fileName, byte[] fileContent);
 }

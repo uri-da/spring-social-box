@@ -40,7 +40,7 @@ public class Folder {
     @JsonProperty("item_status")
     private String itemStatus;
     @JsonProperty("item_collection")
-    private ItemCollection itemCollection;
+    private ItemCollection<Entry> itemCollection;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
     public String getType() {
@@ -115,11 +115,11 @@ public class Folder {
         this.size = size;
     }
 
-    public ItemCollection getItemCollection() {
+    public ItemCollection<Entry> getItemCollection() {
         return itemCollection;
     }
 
-    public void setItemCollection(ItemCollection itemCollection) {
+    public void setItemCollection(ItemCollection<Entry> itemCollection) {
         this.itemCollection = itemCollection;
     }
 
