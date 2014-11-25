@@ -2,7 +2,11 @@ package org.springframework.social.box.api.impl;
 
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.core.io.ByteArrayResource;
-import org.springframework.http.*;
+import org.springframework.core.io.Resource;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.MediaType;
 import org.springframework.social.box.api.FileOperations;
 import org.springframework.social.box.api.domain.Entry;
 import org.springframework.social.box.api.domain.File;
@@ -20,8 +24,9 @@ import java.net.URI;
  */
 public class FileTemplate extends AbstractTemplate implements FileOperations {
 
-    public static final String BOX_KEY_FILENAME = "filename";
-    public static final String BOX_KEY_PARENT_ID = "parent_id";
+    public static final String BOX_KEY_FILE = "file";
+    public static final String BOX_KEY_ATTRIBUTES = "attributes";
+    public static final String JSON_ATTRIBUTES = "{\"name\":\"${filename}\", \"parent\":{\"id\":\"${parentFolderId}\"}}";
 
     private final RestTemplate restTemplate;
 
@@ -61,24 +66,30 @@ public class FileTemplate extends AbstractTemplate implements FileOperations {
 
         HttpEntity request = configureRequest(parentFolderId, fileName, fileContent);
         return restTemplate.exchange(URI.create(uploadUrl + "/content"), HttpMethod.POST, request,
-                new ParameterizedTypeReference<ItemCollection<Entry>>() {}).getBody();
+                new ParameterizedTypeReference<ItemCollection<Entry>>() {
+                }).getBody();
     }
 
     private HttpEntity configureRequest(String parentFolderId, final String filename, final byte[] fileContent) {
-        MultiValueMap<String,Object> formParams = new LinkedMultiValueMap<String,Object>();
-        formParams.add(BOX_KEY_PARENT_ID, parentFolderId);
-        formParams.add(BOX_KEY_FILENAME, buildResourceForFile(filename, fileContent));
-        return new HttpEntity(formParams, configureMultipartFormData());
+
+        Resource resource = buildResourceForFile(filename, fileContent);
+        MultiValueMap<String, Object> parts = new LinkedMultiValueMap<String, Object>();
+        parts.add(BOX_KEY_FILE, resource);
+        parts.add(BOX_KEY_ATTRIBUTES, buildAttributes(filename, parentFolderId));
+        return new HttpEntity(parts, configureMultipartFormData());
     }
 
-    private HttpEntity buildResourceForFile(final String filename, final byte[] fileContent) {
-        final ByteArrayResource fileResource = new ByteArrayResource(fileContent) {
+    private String buildAttributes(String filename, String parentFolderId) {
+        return JSON_ATTRIBUTES.replace("${filename}", filename).replace("${parentFolderId}", parentFolderId);
+    }
+
+    private Resource buildResourceForFile(final String filename, final byte[] fileContent) {
+        return new ByteArrayResource(fileContent) {
             @Override
             public String getFilename() {
                 return filename;
             }
         };
-        return new HttpEntity(fileResource);
     }
 
     private HttpHeaders configureMultipartFormData() {
