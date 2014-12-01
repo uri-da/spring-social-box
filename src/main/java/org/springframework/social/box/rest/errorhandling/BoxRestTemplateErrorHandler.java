@@ -21,7 +21,8 @@ public class BoxRestTemplateErrorHandler extends DefaultResponseErrorHandler imp
     @Override
     public boolean hasError(ClientHttpResponse response) throws IOException {
         if(super.hasError(response)){
-            log.info(IOUtils.toString(response.getBody()));
+            log.info("Error Response headers: {}", response.getHeaders());
+            log.info("Error Response body: {}", IOUtils.toString(response.getBody()));
             return true;
         } else {
             return false;
