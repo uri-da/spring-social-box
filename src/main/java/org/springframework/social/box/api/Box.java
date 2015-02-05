@@ -15,4 +15,6 @@ public interface Box extends ApiBinding {
     FolderOperations folderOperations();
 
     FileOperations fileOperations();
+
+    EnterpriseUsersOperations enterpriseUsersOperations();
 }

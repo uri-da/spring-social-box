@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
+import org.springframework.social.box.api.domain.Entry;
 import org.springframework.social.box.api.domain.File;
 import org.springframework.social.box.api.domain.ItemCollection;
 import org.springframework.social.box.connect.url.CustomizedBoxUrlService;
@@ -69,11 +70,11 @@ public class FileTemplateTest {
         final InputStream fileToSendInputStream = FileTemplateTest.class.getResourceAsStream(filename);
         byte[] fileContent = IOUtils.toByteArray(fileToSendInputStream);
 
-        ItemCollection fileList = boxTemplate.fileOperations().sendFile("0", filename, fileContent);
+        ItemCollection<Entry> fileList = boxTemplate.fileOperations().sendFile("0", filename, fileContent);
 
-        assertThat(fileList.getEntries().get(0), is(notNullValue()));
+        assertThat(fileList.getItems().get(0), is(notNullValue()));
 //        assertThat(fileList.getEntries().get(0).getParent().getId(), is(equalTo("11446498")));
-        assertThat(fileList.getEntries().get(0).getName(), is(equalTo(filename)));
+        assertThat(fileList.getItems().get(0).getName(), is(equalTo(filename)));
     }
 
     private String sendFileTestJson() {

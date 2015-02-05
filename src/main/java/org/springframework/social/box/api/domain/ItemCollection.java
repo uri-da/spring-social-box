@@ -14,13 +14,13 @@ import java.util.Map;
  * Date: 29/10/13
  * Time: 4:07 PM
  */
-public class ItemCollection {
+public class ItemCollection<T> {
 
 
     @JsonProperty("total_count")
     private Long totalCount;
     @JsonProperty("entries")
-    private List<Entry> entries = new ArrayList<Entry>();
+    private List<T> items = new ArrayList<T>();
     @JsonProperty("offset")
     private Long offset;
     @JsonProperty("limit")
@@ -36,12 +36,12 @@ public class ItemCollection {
         this.totalCount = totalCount;
     }
 
-    public List<Entry> getEntries() {
-        return entries;
+    public List<T> getItems() {
+        return items;
     }
 
-    public void setEntries(List<Entry> entries) {
-        this.entries = entries;
+    public void setItems(List<T> items) {
+        this.items = items;
     }
 
     public Long getOffset() {
